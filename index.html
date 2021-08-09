@@ -32,8 +32,8 @@
     <p class="authors">
         Yunhao Li</a>,
         Wei Shen</a>,
-        Zhongpai Gao</a>,</br>
-        Yucheng Zhu</a>,
+        Zhongpai Gao</a>,
+        Yucheng Zhu</a>,</br>
         Guangtao Zhai</a>,
         Guodong Guo</a>
     </p>
@@ -53,30 +53,21 @@
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
         </div>
+	<div class="col-sm-3">
+            <h5>Siren</h5>
+                <img src="img/audio/siren_bach.png" style="width:100%">
+                <audio
+                        controls
+                        src="img/audio/siren_bach.wav"
+                        class="media-left"
+                        style="width:100%">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+        </div>
         <hr>
         <p>
-            Implicitly defined, continuous, differentiable signal representations parameterized
-            by neural networks have emerged as a powerful paradigm, offering many possible
-            benefits over conventional representations.
-
-            However, current network architectures
-            for such implicit neural representations are incapable of modeling signals
-            with fine detail, and fail to represent a signal’s spatial and temporal derivatives,
-            despite the fact that these are essential to many physical signals defined implicitly
-            as the solution to partial differential equations.
-
-            We propose to leverage periodic
-            activation functions for implicit neural representations and demonstrate that these
-            networks, dubbed sinusoidal representation networks or SIREN, are ideally suited
-            for representing complex natural signals and their derivatives.
-
-            We analyze SIREN
-            activation statistics to propose a principled initialization scheme and demonstrate
-            the representation of images, wavefields, video, sound, and their derivatives. Further,
-            we show how SIREN s can be leveraged to solve challenging boundary value
-            problems, such as particular Eikonal equations (yielding signed distance functions),
-            the Poisson equation, and the Helmholtz and wave equations. Lastly, we combine
-            SIREN with hypernetworks to learn priors over the space of SIREN functions.
+<!--             can adding some words -->
         </p>
     </div>
 
