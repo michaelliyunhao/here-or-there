@@ -36,6 +36,7 @@
         Yucheng Zhu</a>,</br>
         Guangtao Zhai</a>,
         Guodong Guo</a>
+        Shanghai Jiao Tong University
     </p>
     <div class="btn-group" role="group" aria-label="Top menu">
 <!--         <a class="btn btn-primary" href="https://arxiv.org/abs/2006.09661">Paper</a>
@@ -55,7 +56,7 @@
         </div> -->
 	<div class="col-sm">
             <h5></h5>
-                <img src="img/page-example.png"width:50%">
+                <img src="img/page-example.png"width:35%">
         </div>
         <hr>
         <p>
@@ -86,8 +87,24 @@
         <h2>GazeFollow360 Dataset</h2>
         <hr>
         <p>
-	    (Coming Soon!) The dataset is available for free only for research purposes. You download the dataset from here. We greatly welcome emails 
-	    about questions or suggestions. Please email to lyhsjtu@sjtu.edu.cn. Please cite this paper if you use the dataset.
+	    (Coming Soon!) 
+	    The dataset is available for free only for research purposes. We greatly welcome emails 
+	    about questions or suggestions if you find some confusing things or mistakes. Please email to lyhsjtu@sjtu.edu.cn. 
+	    Please cite this paper if you use the dataset.
+        </p>
+    </div>
+			
+    <div class="section">
+        <h2>Evaluation Protocol for our GazeFollow360 Dataset</h2>
+        <hr>
+        <p>
+	     •Spherical distance: we use the spherical distance, a.k.a., great-circle distance, as our evaluation metric intead. It is the shortest 
+	     distance between two points on the surface of a sphere.
+			
+	     •AUC: we use the Area Under Curve (AUC) criterion to assess a predicted gaze target heatmap. For fair comparsion, all the predicted heatmap
+	     are upsample/downsample to a 64*64 heatmap with kernel size 3 to calculate the AUC score.
+	     (Lately we will release an example code for the evaluation of our datatset.) 
+	    
         </p>
     </div>
 
@@ -103,12 +120,12 @@
         <h2>Bibtex</h2>
         <hr>
         <div class="bibtexsection">
-		@inproceedings{guo2021adnerf,
+<!-- 		@inproceedings{guo2021adnerf,
                title={Looking here or there? Gaze Following in 360-Degree Images},
                author={Yunhao Li and Wei Shen and Zhongpai Gao and Yucheng Zhu and Guangtao Zhai and Guodong Guo},
                booktitle = {{IEEE/CVF} International Conference on Computer Vision (ICCV)},
                 year={2021}
-                 }
+                 } -->
 <!--             @inproceedings{sitzmann2019siren,
                 author = {Sitzmann, Vincent
                           and Martel, Julien N.P.
